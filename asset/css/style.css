@@ -1,0 +1,205 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.head nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+}
+
+.logo img{
+  width: 100px;
+}
+
+.head nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.head nav a{
+  color: black;
+  background: chocolate;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0px;
+ border: 5px solid chocolate;
+}
+
+.head nav a:hover, .active{
+  background-color:black;
+  border: 5px solid black;
+  color: white;
+}
+
+.body{
+  text-align: center;
+  padding: 60px 20px;
+  margin:10px;
+}
+
+.goods{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.product{
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  width: 200px;
+  box-shadow: 0 0 5px brown;
+}
+
+.product img{
+  width: 100%;
+  border-radius: 8px;
+}
+
+.hot-deal{
+  color: red;
+}
+
+.btn{
+  background: #ffff;
+  color: peru;
+  padding: 8px 12px;
+  display: inline-block;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn:hover{
+  background: #ffcc00;
+  color: black;
+}
+
+.customer table{
+  margin: 40px auto;
+  width: 100%;
+  
+}
+
+.customer th, .customer td {
+ border-collapse: collapse;
+  padding: 10px;
+  text-align: center;
+}
+
+.customer tr{
+  border: 1px solid black;
+}
+
+.customer tr:hover{
+  background: #333;
+  color: white;
+}
+
+.contact-page{
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.contact{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+form input, form textarea{
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form button{
+  background: black;
+  color: chocolate;
+ border: none;
+ padding: 10px;
+ border-radius: 5px;
+ cursor: pointer;
+}
+
+form button:hover{
+  background: #333;
+  color: white;
+}
+
+.contact-info{
+  max-width: 250px;
+  text-align: left;
+}
+
+.contact-info p{
+  margin: 10px 0;
+}
+
+/* SHOP PAGE STYLING */
+.shop {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.shop-controls {
+  margin: 20px auto 40px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.search-bar {
+  padding: 10px 15px;
+  width: 220px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.filter {
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+}
+
+.filter:hover, .search-bar:focus {
+  border-color: #ffcc00;
+  outline: none;
+}
+
+.shop .products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+
+footer{
+  background: #222;
+  color: white;
+  text-align: center
+}
